@@ -3,6 +3,8 @@ using namespace std;
 
 #define VOCABULARY_FILE "vocab.txt"
 #define REVIEW_COUNT 	10
+int totalVocab = 0;
+
 
 class Vocab
 {
@@ -120,12 +122,70 @@ class Vocab
 		}
 };
 
+class Hash
+{
+	public:
+	    int BUCKET;
+	    list<int> *table;
+
+	    Hash(int _BUCKET){
+	    	this->BUCKET = _BUCKET;
+    		table = new list<int>[BUCKET];
+	    }
+	 
+	    void insertItem(string str, int x){
+	    	int index = hashFunction(str);
+    		table[index].push_back(x);
+	    }
+	 
+	    int deleteItem(string str, int x){
+	    	int deleted = 0;
+			int index = hashFunction(str);
+			 
+			list <int> :: iterator i;
+			for (i = table[index].begin(); i != table[index].end(); i++) {
+				if (*i == x)
+				  break;
+			}
+
+			if (i != table[index].end()){
+				table[index].erase(i);
+				deleted = 1;
+			}
+			return deleted;
+	    }
+	 
+	    int hashFunction(string str) {
+	    	int x = 0;
+	    	transform(str.begin(), str.end(), str.begin(), ::tolower);
+
+	    	for (int i = 0; str[i]; ++i)
+	    	{
+	    		x = (x + str[i])%this->BUCKET;
+	    	}
+	        return x;
+	    }
+	 	
+		void displayHash() {
+			for (int i = 0; i < BUCKET; i++) {
+			cout << i;
+			for (auto x : table[i])
+			  cout << " --> " << x;
+			cout << endl;
+			}
+		}
+};
+
+
+
 class Vocabulary{
 	public:
 		std::vector<Vocab> vocabs;
+		Hash hs = Hash(50);
 
 		Vocabulary(){
 			loadVocabsFromFile();
+			//this->hs.displayHash();
 		}
 		Vocabulary(std::vector<Vocab> _vocabs){
 			this->vocabs = _vocabs;
@@ -133,39 +193,46 @@ class Vocabulary{
 
 		void addVocab(Vocab _vocab){
 			this->vocabs.push_back(_vocab);
+			this->hs.insertItem(_vocab.getWord(), totalVocab);
+			totalVocab++;
 		}
 
-		void findVocab(string _word){
-			std::vector<Vocab>::iterator it;
+		int findVocab(string _word){
+			int idx = -1;
 			if(this->vocabs.empty()){
 				std::cout << "Empty Vocabulary." << endl;
 			}
-			for(it = this->vocabs.begin(); it!=this->vocabs.end(); it++){
-		    	if(_word.compare((*it).getWord())==0){
-		    		(*it).displayVocabSummary();
-		    		return;
-		    	}
-		    }
-		    if(it==this->vocabs.end()){
-		    	std::cout << "Could not find vocab with \"" << _word << "\"" << endl;
-		    	return;
-		    }
+			int key = this->hs.hashFunction(_word);
+			list <int> :: iterator i;
+			for (i = this->hs.table[key].begin(); i != this->hs.table[key].end(); i++) {
+				if(strcasecmp(_word.c_str(), this->vocabs[*i].getWord().c_str())==0){
+				  	idx = (*i);
+		     		return idx;
+		     	}
+			}
+
+			if (i == this->hs.table[key].end()){
+				std::cout << "Could not find vocab with \"" << _word << "\"" << endl;
+			}
+			return idx;
 		}
+
 		int deleteVocab(string _word){
 			int deleted = 0;
-			std::vector<Vocab>::iterator it;
 			if(this->vocabs.empty()){
 				std::cout << "Empty Vocabulary." << endl;
 				return deleted;
 			}
-			for(it = this->vocabs.begin(); it!=this->vocabs.end(); it++){
-		    	if(_word.compare((*it).getWord())==0){
-		    		this->vocabs.erase(it);
-		    		deleted = 1;
-		    		std::cout << "Vocab deleted." << endl;
-		    		return deleted;
-		    	}
-		    }
+
+			int idx = findVocab(_word);
+
+			if(idx!=-1){
+				this->vocabs.erase(this->vocabs.begin() + idx);
+	    		this->hs.deleteItem(_word, idx);
+	    		deleted = 1;
+	    		std::cout << "Vocab deleted." << endl;
+			}
+
 		    if(deleted == 0) std::cout << "Could not find vocab with \"" << _word << "\"" << endl;
 		    return deleted;
 		}
@@ -233,7 +300,7 @@ class Vocabulary{
 		        return 0;
 		    }
 
-		    int count = 0, ex_count = 0;
+		    int count = 0, ex_count = 0, idx = 0;
 		    while (getline(data_file, line)){
 		        switch(count){
 		        	case 0:
@@ -258,9 +325,14 @@ class Vocabulary{
 		        		break;
 		        	case 5:
 		        		_nExample = line[0] - '0';
+		        		ex_count = 0;
+		        		_example_sentences.clear();
 		        		if(_nExample == 0){
 		        			Vocab vocab(_word, _level, _meaning, _date_added, _date_last_reviewed, _nExample, _example_sentences);
 			        		this->vocabs.push_back(vocab);
+			        		this->hs.insertItem(_word, idx);
+			        		idx++;
+			        		totalVocab++;
 			        		count = 0;
 		        		}
 		        		else count++;
@@ -273,6 +345,9 @@ class Vocabulary{
 		        		if(ex_count == _nExample){
 			        		Vocab vocab(_word, _level, _meaning, _date_added, _date_last_reviewed, _nExample, _example_sentences);
 			        		this->vocabs.push_back(vocab);
+			        		this->hs.insertItem(_word, idx);
+			        		idx++;
+			        		totalVocab++;
 			        		count = 0;
 			        	}
 		        		break;
@@ -318,7 +393,6 @@ class Vocabulary{
 		}
 }vocabulary;
 
-
 Vocab inputWord(){
 	string _word, _meaning, _example, ws;
 	std::vector<string> _example_sentences;
@@ -330,11 +404,9 @@ Vocab inputWord(){
 	getline(cin, ws);
 	getline(cin, _meaning);
 
-	while(!(_nExample >= 0 && _nExample <= 9)){
-		std::cout 	<< "Enter the number of example sentences(0-9): ";
-		std::cin 	>> _nExample;
-	}
-
+	std::cout 	<< "Enter the number of example sentences(0-9): ";
+	std::cin 	>> _nExample;
+	
 	int inc, count = 0;
 	while(count < _nExample){
 		count++;
@@ -492,7 +564,7 @@ int doReview(std::vector<Vocab> &vocabs, int vocabsToReviewIdx[]){
 int main(int argc, char const *argv[])
 {
 
-    int choice, inc, modified = 0;
+    int choice, inc, modified = 0, idx;
     Vocab vocab;
 	string _wd;    
 	int vocabsToReviewIdx[REVIEW_COUNT];	
@@ -547,7 +619,8 @@ int main(int argc, char const *argv[])
 		    case 5:	    	
 		    	std::cout << "Give the word to find: ";
 		    	std::cin >> _wd;
-		    	vocabulary.findVocab(_wd);
+		    	idx = vocabulary.findVocab(_wd);
+		    	if(idx!=-1)vocabulary.vocabs[idx].displayVocabSummary();
 		    	break;
 	    	case 0:
 	    		if(modified){
