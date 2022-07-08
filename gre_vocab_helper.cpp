@@ -391,6 +391,129 @@ class Vocabulary{
 		    }
 		    return 1;
 		}
+
+		int isReviewable(std::tm _date_last_reviewed, int _level){
+			int isAble = 0;
+			// Set current local datetime
+			std::time_t t = std::time(0);
+			std::tm* now = std::localtime(&t);
+			std::tm _date_today = *now;
+
+			get_time(&_date_last_reviewed, "%d.%m.%Y");
+			get_time(&_date_today, "%d.%m.%Y");
+
+			int yd = (&_date_today)->tm_year - (&_date_last_reviewed)->tm_year;
+			int md = (&_date_today)->tm_mon - (&_date_last_reviewed)->tm_mon;
+			int dd = (&_date_today)->tm_mday - (&_date_last_reviewed)->tm_mday;
+
+			switch(_level){
+				case 1:
+					if(dd>0)isAble = 1;
+					break;
+				case 2:
+					if(dd>2)isAble = 1;
+					break;
+				case 3:
+					if(dd>6)isAble = 1;
+					break;
+				case 4:
+					if(dd>14)isAble = 1;
+					break;
+			}
+			return isAble;
+		}
+
+		void getVocabsToReview(int vocabsToReviewIdx[]){
+			int idx = 0, count = 0;	
+			std::vector<Vocab>::iterator it;
+			int eligible = 0;
+
+			if(vocabs.empty()){
+				std::cout << "Empty Vocabulary." << endl;
+			}
+			for(it = this->vocabs.begin(); it!=this->vocabs.end(); it++){
+				if(idx == REVIEW_COUNT)break;
+				eligible = 0;
+		    	eligible = isReviewable((*it).getDateLastReviewed(), (*it).getLevel());
+		    	if(eligible){
+		    		vocabsToReviewIdx[idx] = count;
+		    		idx++;
+		    	}
+		    	count++;
+		    }
+		}
+
+		void reviewVocab(int idx){
+			Vocab &vocab = this->vocabs[idx];
+			std::time_t t = std::time(0);
+			std::tm* now = std::localtime(&t);
+			std::tm _date_today = *now;
+			get_time(&_date_today, "%d.%m.%Y");
+
+			std::cout << "Vocab to review: " << vocab.getWord() << endl;
+			std::cout << "Press Enter to reveal." << endl;
+
+			string ws;
+			getline(cin, ws);
+			getline(cin, ws);
+
+			vocab.displayVocabSummary();
+
+			std::cout << "\n\n1. I know this one for sure\n2. I can not remember this one\n3. I am not sure about this one\nYour choice: ";
+			
+			int choice;
+			std::cin >> choice;
+
+			vocab.setDateLastReviewed(_date_today);
+
+			switch(choice){
+				case 1:
+					std::cout << "Congratulation. This vocab goes up by one level.\n";
+					vocab.setLevel(vocab.getLevel()+1);
+					std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
+					break;
+				case 2:
+					std::cout << "Poor thing. This vocab goes down to level 1.\n";
+					vocab.setLevel(1);
+					std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
+					break;
+				case 3:
+					if(vocab.getLevel() != 1){
+						std::cout << "Sorry. Next time try with confidence. Your lack of confidence got this vocab down by one level.\n";
+						vocab.setLevel(vocab.getLevel()-1);
+						std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
+					}
+					else std::cout << "Don't worry. Level of this vocab is 1. Try next time WITH CONFIDENCE." << endl;
+					break;
+			}
+		}
+
+		int doReview(){
+			int modified = 0;
+			int vocabsToReviewIdx[REVIEW_COUNT];
+			for (int i = 0; i < REVIEW_COUNT; ++i)
+			{
+				vocabsToReviewIdx[i] = -1;
+			}
+
+			getVocabsToReview(vocabsToReviewIdx);
+
+			if(vocabs.empty()){
+				std::cout << "Empty Vocabulary." << endl;
+				return modified;
+			}
+			for (int i = 0; i < REVIEW_COUNT; ++i)
+			{
+				if(vocabsToReviewIdx[i]!=-1){
+					modified |= 1;
+					reviewVocab(vocabsToReviewIdx[i]);
+				}
+			}
+
+			if(modified == 0)std::cout << "Nothing to review." << endl;
+			return modified;
+		}
+
 }vocabulary;
 
 Vocab inputWord(){
@@ -425,36 +548,7 @@ Vocab inputWord(){
 	return vocab;
 }
 
-int isReviewable(std::tm _date_last_reviewed, int _level){
-	int isAble = 0;
-	// Set current local datetime
-	std::time_t t = std::time(0);
-	std::tm* now = std::localtime(&t);
-	std::tm _date_today = *now;
 
-	get_time(&_date_last_reviewed, "%d.%m.%Y");
-	get_time(&_date_today, "%d.%m.%Y");
-
-	int yd = (&_date_today)->tm_year - (&_date_last_reviewed)->tm_year;
-	int md = (&_date_today)->tm_mon - (&_date_last_reviewed)->tm_mon;
-	int dd = (&_date_today)->tm_mday - (&_date_last_reviewed)->tm_mday;
-
-	switch(_level){
-		case 1:
-			if(dd>0)isAble = 1;
-			break;
-		case 2:
-			if(dd>2)isAble = 1;
-			break;
-		case 3:
-			if(dd>6)isAble = 1;
-			break;
-		case 4:
-			if(dd>14)isAble = 1;
-			break;
-	}
-	return isAble;
-}
 
 
 void reset_level(std::vector<Vocab> &vocabs){
@@ -486,80 +580,6 @@ void reset_level(std::vector<Vocab> &vocabs){
 	}
 }
 
-void getVocabsToReview(std::vector<Vocab> &vocabs, int vocabsToReviewIdx[]){
-	int idx = 0, count = 0;	
-	std::vector<Vocab>::iterator it;
-	int eligible = 0;
-
-	if(vocabs.empty()){
-		std::cout << "Empty Vocabulary." << endl;
-	}
-	for(it = vocabs.begin(); it!=vocabs.end(); it++){
-		if(idx == REVIEW_COUNT)break;
-		eligible = 0;
-    	eligible = isReviewable((*it).getDateLastReviewed(), (*it).getLevel());
-    	if(eligible){
-    		vocabsToReviewIdx[idx] = count;
-    		idx++;
-    	}
-    	count++;
-    }
-}
-
-void reviewVocab(Vocab &vocab){
-	std::time_t t = std::time(0);
-	std::tm* now = std::localtime(&t);
-	std::tm _date_today = *now;
-	get_time(&_date_today, "%d.%m.%Y");
-
-	std::cout << "Vocab to review: " << vocab.getWord() << endl;
-	std::cout << "1. I know this one for sure\n2. I can not remember this one\n3. I am not sure about this one\nYour choice: ";
-	
-	int choice;
-	std::cin >> choice;
-
-	vocab.displayVocabSummary();
-	vocab.setDateLastReviewed(_date_today);
-
-	switch(choice){
-		case 1:
-			std::cout << "Congratulation. This vocab goes up by one level.\n";
-			vocab.setLevel(vocab.getLevel()+1);
-			std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
-			break;
-		case 2:
-			std::cout << "Poor thing. This vocab goes down to level 1.\n";
-			vocab.setLevel(1);
-			std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
-			break;
-		case 3:
-			if(vocab.getLevel() != 1){
-				std::cout << "Sorry. Next time try with confidence. Your lack of confidence got this vocab down by one level.\n";
-				vocab.setLevel(vocab.getLevel()-1);
-				std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
-			}
-			else std::cout << "Don't worry. Level of this vocab is 1. Try next time WITH CONFIDENCE." << endl;
-			break;
-	}
-}
-
-int doReview(std::vector<Vocab> &vocabs, int vocabsToReviewIdx[]){
-	int modified = 0;
-	if(vocabs.empty()){
-		std::cout << "Empty Vocabulary." << endl;
-		return modified;
-	}
-	for (int i = 0; i < REVIEW_COUNT; ++i)
-	{
-		if(vocabsToReviewIdx[i]!=-1){
-			modified |= 1;
-			reviewVocab(vocabs[vocabsToReviewIdx[i]]);
-		}
-	}
-
-	if(modified == 0)std::cout << "Nothing to review." << endl;
-	return modified;
-}
 
 int main(int argc, char const *argv[])
 {
@@ -567,11 +587,6 @@ int main(int argc, char const *argv[])
     int choice, inc, modified = 0, idx;
     Vocab vocab;
 	string _wd;    
-	int vocabsToReviewIdx[REVIEW_COUNT];	
-	for (int i = 0; i < REVIEW_COUNT; ++i)
-	{
-		vocabsToReviewIdx[i] = -1;
-	}
 
     while(1){
 
@@ -609,8 +624,7 @@ int main(int argc, char const *argv[])
 				if(modified == 0)std::cout << "Vocab not deleted." << endl;
 		    	break;
 		    case 3:
-		    	getVocabsToReview(vocabulary.vocabs, vocabsToReviewIdx);
-		    	modified = doReview(vocabulary.vocabs, vocabsToReviewIdx);
+		    	modified = vocabulary.doReview();
 		    	std::cout << "Review done." << endl;
 		    	break;
 		    case 4:
