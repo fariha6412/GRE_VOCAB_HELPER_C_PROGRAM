@@ -1,149 +1,320 @@
 Abase
-2
+3
 to humble or humiliate
 6.7.2022
-7.7.2022
+13.7.2022
 1
 The person abased himself before the king.
 Abate
-2
+3
 to become less strong
 7.7.2022
-9.7.2022
+13.7.2022
 1
 The fighting in the area shows no sign of abating.
 Abdicate
 1
 to give up position or fail to take responsibility
 7.7.2022
-9.7.2022
+15.7.2022
 1
 The administration has abdicated its leadership on this critical issue.
 Aberrant
-2
+3
 unusual or not socially acceptable
 7.7.2022
-9.7.2022
+13.7.2022
 1
 Ian's rages and aberrant behavior worsened.
 Abeyance
-1
+2
 temporary suspension, inactivity
 7.7.2022
-9.7.2022
+13.7.2022
 1
 The project is being held in abeyance until agreement is reached on funding it.
 Abhor
-2
+3
 regard with disgust, to hate
 7.7.2022
-9.7.2022
+13.7.2022
 1
 He abhored sexism in every form.
 Abjure
-2
+3
 give up
 7.7.2022
-9.7.2022
+13.7.2022
 1
 He was arrested and forced to abjure his professorship.
 Abrasive
-2
+3
 rough, rude
 7.7.2022
-9.7.2022
+13.7.2022
 2
 You'll need a strong abrasive for cleaning this sink.
 Pamela was unrepentant about her strong language and abrasive remarks.
 Abreast
-2
+3
 side-by-side, well-informed, acquainted
 7.7.2022
-9.7.2022
+13.7.2022
 0
 Abridge
-2
+1
 to lessen, shorten by omitting parts throughout while retaining the main idea
 7.7.2022
-9.7.2022
+15.7.2022
 0
 Abscond
 1
 to leave secretly
 9.7.2022
-9.7.2022
+15.7.2022
 1
 He absconded with stolen money.
 Abstain
-1
+2
 to voluntarily refrain from doing something
 9.7.2022
-9.7.2022
+13.7.2022
 1
 I am trying to abstain from sweets for my new diet.
 Acumen
-1
+2
 keen judgement and perception, the ability to make good judgement and take quick decisions
 9.7.2022
-9.7.2022
+15.7.2022
 1
 John's business acumen, along with his computer skills made him an asset for the company.
 Admonish
-1
+2
 scold or to advise firmly
 9.7.2022
-9.7.2022
+13.7.2022
 0
 Adulterate
-1
+2
 making something less pure by adding something
 9.7.2022
-9.7.2022
+13.7.2022
 1
 An example of adulterate is when an organic beauty company adds harsh or harmful chemicals to their products.
 Advocate
-1
+2
 to recommend, support or advise
 9.7.2022
-9.7.2022
+13.7.2022
 0
 Aesthetic
-1
+2
 concerned with beauty
 9.7.2022
-9.7.2022
+13.7.2022
 2
 My aesthetic standards are quite different from his.
 The new building has little aesthetic appeal.
 Affectation
-1
+2
 artificial behavior, concealing the truth, pretentious behavior
 9.7.2022
-9.7.2022
+15.7.2022
 0
 Aggrandize
-1
+2
 increase power or status
 9.7.2022
-9.7.2022
+13.7.2022
 0
 Alacrity
-1
+2
 eagerness
 9.7.2022
-9.7.2022
+15.7.2022
 1
 They accepted the offer with alacrity.
 Alleviate
-1
+2
 make(suffering) less severe
 9.7.2022
-9.7.2022
+15.7.2022
 1
 The medicine did nothing to alleviate her discomfort.
 Amalgamate
-1
+2
 to combine or mix together
 9.7.2022
-9.7.2022
+13.7.2022
 0
+Ambiguous
+2
+unclear
+13.7.2022
+15.7.2022
+1
+His songs are intentionally ambiguous.
+Ambivalent
+1
+having mixed or contradictory feelings about someone or something
+13.7.2022
+15.7.2022
+2
+I felt very ambivalent about leaving home.
+I am ambivalent as to whether or not I want to take the medicine because of the drug's known side-effects.
+Ameliorate
+1
+to improve or migrate a situation, make something(unsatisfactory) better
+13.7.2022
+15.7.2022
+1
+The reform did much to ameliorate living standards.
+Amenable
+2
+easily pursuaded, willling to cooperate
+13.7.2022
+15.7.2022
+2
+This contract is amenable to change.
+Her husband never complains about anything and always amenable to her vacation suggestions.
+Anachronishm
+2
+old-fashioned
+13.7.2022
+15.7.2022
+0
+Analogous
+1
+comparable, similar
+13.7.2022
+15.7.2022
+1
+My teacher is analogous to my mother.
+Anoint
+2
+put holy water or oil, designate
+13.7.2022
+15.7.2022
+1
+He anointed his youngest son as his successor.
+Anomaly
+2
+exception
+13.7.2022
+15.7.2022
+0
+Antipathy
+1
+strong dislike or hatred
+13.7.2022
+15.7.2022
+0
+Antithetical
+1
+opposition
+13.7.2022
+15.7.2022
+1
+Evolution and Islam are antithetical beliefs as they view the concept of creation differently.
+Apathy
+1
+a feeling of having no interest or enthusiasm
+13.7.2022
+15.7.2022
+1
+A company's primary goal is to replace consumer's apathy with longing.
+Appease
+2
+calm an argument usually in the angry party's favor
+13.7.2022
+15.7.2022
+1
+People are so frightened of the politically correct police that they are willing to do things that are irrational just to appease them.
+Arbitrary
+2
+random
+13.7.2022
+15.7.2022
+0
+Arcane
+2
+known to selected people, obscure
+13.7.2022
+15.7.2022
+1
+Because it is no longer taught in school I believe that cursive writing will become arcane.
+Archaic
+1
+old-fashioned
+15.7.2022
+15.7.2022
+1
+Many people consider the concept of arranged marriages to be archaic.
+Arduous
+1
+difficult
+15.7.2022
+15.7.2022
+1
+Needless to say, mastering a foreign language is and arduous challenge.
+Articulate
+1
+well-spoken, expressing oneself clearly
+15.7.2022
+15.7.2022
+3
+The interviewer asked me to articulate my contribution to the company.
+While Ben is very articulate, he often rambles when he is drunk.
+When I get nervous, it is very difficult for me to articulate my thoughts.
+Artless
+1
+simple, natural, untrained
+15.7.2022
+15.7.2022
+1
+He is artlessly charming.
+Ascetic
+1
+living a life of self-discipline and self-denial usually for spiritual reasons
+15.7.2022
+15.7.2022
+1
+The ascetic man gave away his fortune and moved to a tiny one-bedroom apartment.
+Assuage
+1
+to provide relief
+15.7.2022
+15.7.2022
+3
+To help assuage my guilt, I told the truth.
+Warm soup does very little to assuage my soar throat.
+Not even a bribe to the carnival would assuage my farocious little sister.
+Audacious
+1
+recklessly bold, daring
+15.7.2022
+15.7.2022
+1
+The most successful people are those who are audacious and not afraid to take risk.
+Austere
+1
+unadorned, not decorated, very simple
+15.7.2022
+15.7.2022
+2
+Without any decoration, the christmas tree looked austere.
+A monk choooses to live and austere life because of his religious beliefs.
+Avarice
+1
+greed
+15.7.2022
+15.7.2022
+1
+With avarice, you could have everything in the world and it all still would not be enough.
+Aver
+1
+assert, express something in a convincing way with confidence
+15.7.2022
+15.7.2022
+1
+A political candidate's ads aver he is the best choice.
