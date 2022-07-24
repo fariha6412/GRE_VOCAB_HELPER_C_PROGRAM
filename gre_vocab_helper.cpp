@@ -511,6 +511,7 @@ class Vocabulary{
 			}
 
 			if(modified == 0)std::cout << "Nothing to review." << endl;
+			else std::cout << "Review done." << endl;
 			return modified;
 		}
 
@@ -584,7 +585,7 @@ void reset_level(std::vector<Vocab> &vocabs){
 int main(int argc, char const *argv[])
 {
 
-    int choice, inc, modified = 0, idx;
+    int choice, inc, modified = 0, isDeleted = 0, idx;
     Vocab vocab;
 	string _wd;    
 
@@ -620,12 +621,13 @@ int main(int argc, char const *argv[])
 		    case 2:
 		    	std::cout << "Give the word to delete: ";
 		    	std::cin >> _wd;
-		    	modified = vocabulary.deleteVocab(_wd);
-				if(modified == 0)std::cout << "Vocab not deleted." << endl;
+
+		    	isDeleted = vocabulary.deleteVocab(_wd);
+				if(isDeleted == 0)std::cout << "Vocab not deleted." << endl;
+				modified |= isDeleted;
 		    	break;
 		    case 3:
-		    	modified = vocabulary.doReview();
-		    	std::cout << "Review done." << endl;
+		    	modified |= vocabulary.doReview();
 		    	break;
 		    case 4:
 		    	vocabulary.showAllVocabs();
