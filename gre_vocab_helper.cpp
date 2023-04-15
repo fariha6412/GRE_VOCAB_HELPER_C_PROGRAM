@@ -392,6 +392,19 @@ class Vocabulary{
 		    return 1;
 		}
 
+		bool isMoreDay(std::tm today, std::tm then, int daydiff){
+			get_time(&then, "%d.%m.%Y");
+			get_time(&today, "%d.%m.%Y");
+
+			int yd = (&today)->tm_year - (&then)->tm_year;
+			int md = (&today)->tm_mon - (&then)->tm_mon;
+			int dd = (&today)->tm_mday - (&then)->tm_mday;
+			
+			return yd > 0;
+			return md > 0;
+			return dd > daydiff;
+		}
+
 		int isReviewable(std::tm _date_last_reviewed, int _level){
 			int isAble = 0;
 			// Set current local datetime
@@ -399,25 +412,19 @@ class Vocabulary{
 			std::tm* now = std::localtime(&t);
 			std::tm _date_today = *now;
 
-			get_time(&_date_last_reviewed, "%d.%m.%Y");
-			get_time(&_date_today, "%d.%m.%Y");
-
-			int yd = (&_date_today)->tm_year - (&_date_last_reviewed)->tm_year;
-			int md = (&_date_today)->tm_mon - (&_date_last_reviewed)->tm_mon;
-			int dd = (&_date_today)->tm_mday - (&_date_last_reviewed)->tm_mday;
 
 			switch(_level){
 				case 1:
-					if(dd>0)isAble = 1;
+					if(isMoreDay(_date_today, _date_last_reviewed, 0))isAble = 1;
 					break;
 				case 2:
-					if(dd>2)isAble = 1;
+					if(isMoreDay(_date_today, _date_last_reviewed, 2))isAble = 1;
 					break;
 				case 3:
-					if(dd>6)isAble = 1;
+					if(isMoreDay(_date_today, _date_last_reviewed, 6))isAble = 1;
 					break;
 				case 4:
-					if(dd>14)isAble = 1;
+					if(isMoreDay(_date_today, _date_last_reviewed, 14))isAble = 1;
 					break;
 			}
 			return isAble;
