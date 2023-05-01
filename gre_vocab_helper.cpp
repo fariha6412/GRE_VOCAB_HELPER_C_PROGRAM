@@ -400,9 +400,7 @@ class Vocabulary{
 			int md = (&today)->tm_mon - (&then)->tm_mon;
 			int dd = (&today)->tm_mday - (&then)->tm_mday;
 			
-			return yd > 0;
-			return md > 0;
-			return dd > daydiff;
+			return ( yd > 0 | md > 0 | dd > daydiff);
 		}
 
 		int isReviewable(std::tm _date_last_reviewed, int _level){

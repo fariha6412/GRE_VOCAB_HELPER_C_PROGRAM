@@ -6,17 +6,17 @@ to humble or humiliate
 1
 The person abased himself before the king.
 Abate
-3
+4
 to become less strong
 7.7.2022
-15.4.2023
+1.5.2023
 1
 The fighting in the area shows no sign of abating.
 Abdicate
-1
+2
 to give up position or fail to take responsibility
 7.7.2022
-15.4.2023
+1.5.2023
 1
 The administration has abdicated its leadership on this critical issue.
 Aberrant
@@ -27,10 +27,10 @@ unusual or not socially acceptable
 1
 Ian's rages and aberrant behavior worsened.
 Abeyance
-1
+2
 temporary suspension, inactivity
 7.7.2022
-15.4.2023
+1.5.2023
 1
 The project is being held in abeyance until agreement is reached on funding it.
 Abhor
@@ -44,7 +44,7 @@ Abjure
 1
 give up
 7.7.2022
-15.4.2023
+1.5.2023
 1
 He was arrested and forced to abjure his professorship.
 Abrasive
@@ -56,109 +56,109 @@ rough, rude
 You'll need a strong abrasive for cleaning this sink.
 Pamela was unrepentant about her strong language and abrasive remarks.
 Abreast
-1
+2
 side-by-side, well-informed, acquainted
 7.7.2022
-15.4.2023
+1.5.2023
 0
 Abridge
 1
 to lessen, shorten by omitting parts throughout while retaining the main idea
 7.7.2022
-15.4.2023
+1.5.2023
 0
 Abscond
-1
+2
 to leave secretly
 9.7.2022
-15.4.2023
+1.5.2023
 1
 He absconded with stolen money.
 Abstain
-4
+5
 to voluntarily refrain from doing something
 9.7.2022
-15.4.2023
+1.5.2023
 1
 I am trying to abstain from sweets for my new diet.
 Acumen
-4
+5
 keen judgement and perception, the ability to make good judgement and take quick decisions
 9.7.2022
-15.4.2023
+1.5.2023
 1
 John's business acumen, along with his computer skills made him an asset for the company.
 Admonish
-4
+1
 scold or to advise firmly
 9.7.2022
-15.4.2023
+1.5.2023
 0
 Adulterate
-4
+5
 making something less pure by adding something
 9.7.2022
-15.4.2023
+1.5.2023
 1
 An example of adulterate is when an organic beauty company adds harsh or harmful chemicals to their products.
 Advocate
-4
+5
 to recommend, support or advise
 9.7.2022
-15.4.2023
+1.5.2023
 0
 Aesthetic
-4
+5
 concerned with beauty
 9.7.2022
-15.4.2023
+1.5.2023
 2
 My aesthetic standards are quite different from his.
 The new building has little aesthetic appeal.
 Affectation
-2
+3
 artificial behavior, concealing the truth, pretentious behavior
 9.7.2022
-15.4.2023
+1.5.2023
 0
 Aggrandize
-4
+5
 increase power or status
 9.7.2022
-15.4.2023
+1.5.2023
 0
 Alacrity
-2
+3
 eagerness
 9.7.2022
-15.4.2023
+1.5.2023
 1
 They accepted the offer with alacrity.
 Alleviate
-4
+1
 make(suffering) less severe
 9.7.2022
-15.4.2023
+1.5.2023
 1
 The medicine did nothing to alleviate her discomfort.
 Amalgamate
-4
+5
 to combine or mix together
 9.7.2022
-15.4.2023
+1.5.2023
 0
 Ambiguous
-4
+5
 unclear
 13.7.2022
-15.4.2023
+1.5.2023
 1
 His songs are intentionally ambiguous.
 Ambivalent
 1
 having mixed or contradictory feelings about someone or something
 13.7.2022
-15.4.2023
+1.5.2023
 2
 I felt very ambivalent about leaving home.
 I am ambivalent as to whether or not I want to take the medicine because of the drug's known side-effects.
@@ -166,141 +166,141 @@ Ameliorate
 1
 to improve or migrate a situation, make something(unsatisfactory) better
 13.7.2022
-15.4.2023
+1.5.2023
 1
 The reform did much to ameliorate living standards.
 Amenable
-4
+5
 easily pursuaded, willling to cooperate
 13.7.2022
-15.4.2023
+1.5.2023
 2
 This contract is amenable to change.
 Her husband never complains about anything and always amenable to her vacation suggestions.
 Anachronishm
-4
+5
 old-fashioned
 13.7.2022
-15.4.2023
+1.5.2023
 0
 Analogous
-1
+2
 comparable, similar
 13.7.2022
-15.4.2023
+1.5.2023
 1
 My teacher is analogous to my mother.
 Anoint
-1
+2
 put holy water or oil, designate
 13.7.2022
-15.4.2023
+1.5.2023
 1
 He anointed his youngest son as his successor.
 Anomaly
-4
+5
 exception
 13.7.2022
-15.4.2023
+1.5.2023
 0
 Antipathy
 1
 strong dislike or hatred
 13.7.2022
-15.4.2023
+1.5.2023
 0
 Antithetical
 1
 opposition
 13.7.2022
-15.4.2023
+1.5.2023
 1
 Evolution and Islam are antithetical beliefs as they view the concept of creation differently.
 Apathy
 1
 a feeling of having no interest or enthusiasm
 13.7.2022
-15.4.2023
+1.5.2023
 1
 A company's primary goal is to replace consumer's apathy with longing.
 Appease
-2
+1
 calm an argument usually in the angry party's favor
 13.7.2022
-15.4.2023
+1.5.2023
 1
 People are so frightened of the politically correct police that they are willing to do things that are irrational just to appease them.
 Arbitrary
-4
+5
 random
 13.7.2022
-15.4.2023
+1.5.2023
 0
 Arcane
-2
+3
 known to selected people, obscure
 13.7.2022
-15.4.2023
+1.5.2023
 1
 Because it is no longer taught in school I believe that cursive writing will become arcane.
 Archaic
-1
+2
 old-fashioned
 15.7.2022
-15.4.2023
+1.5.2023
 1
 Many people consider the concept of arranged marriages to be archaic.
 Arduous
-1
+2
 difficult
 15.7.2022
-15.4.2023
+1.5.2023
 1
 Needless to say, mastering a foreign language is and arduous challenge.
 Articulate
-1
+2
 well-spoken, expressing oneself clearly
 15.7.2022
-15.4.2023
+1.5.2023
 3
 The interviewer asked me to articulate my contribution to the company.
 While Ben is very articulate, he often rambles when he is drunk.
 When I get nervous, it is very difficult for me to articulate my thoughts.
 Artless
-3
+4
 simple, natural, untrained
 15.7.2022
-15.4.2023
+1.5.2023
 1
 He is artlessly charming.
 Ascetic
-2
+1
 living a life of self-discipline and self-denial usually for spiritual reasons
 15.7.2022
-24.7.2022
+1.5.2023
 1
 The ascetic man gave away his fortune and moved to a tiny one-bedroom apartment.
 Assuage
-2
+4
 to provide relief
 15.7.2022
-24.7.2022
+1.5.2023
 3
 To help assuage my guilt, I told the truth.
 Warm soup does very little to assuage my soar throat.
 Not even a bribe to the carnival would assuage my farocious little sister.
 Audacious
-2
+4
 recklessly bold, daring
 15.7.2022
-24.7.2022
+1.5.2023
 1
 The most successful people are those who are audacious and not afraid to take risk.
 Austere
 1
 unadorned, not decorated, very simple
 15.7.2022
-24.7.2022
+1.5.2023
 2
 Without any decoration, the christmas tree looked austere.
 A monk choooses to live and austere life because of his religious beliefs.
@@ -308,28 +308,28 @@ Avarice
 1
 greed
 15.7.2022
-24.7.2022
+1.5.2023
 1
 With avarice, you could have everything in the world and it all still would not be enough.
 Aver
 1
 assert, express something in a convincing way with confidence
 15.7.2022
-24.7.2022
+1.5.2023
 1
 A political candidate's ads aver he is the best choice.
 Banal
-1
+3
 boring, ordinary, lacks originality
 24.7.2022
-24.7.2022
+1.5.2023
 1
 At nearly evening meeting, he made the same banal speech.
 Belie
-1
+3
 false appearance
 24.7.2022
-24.7.2022
+1.5.2023
 2
 Her calm face belied the terror she was feeling.
 Jason tried to belie the fact he was a lousy worker by showing up early at the office.
@@ -337,40 +337,96 @@ Benign
 1
 harmless
 24.7.2022
-24.7.2022
+1.5.2023
 0
 Bolster
-1
+3
 to support, improve, making stronger
 24.7.2022
-24.7.2022
+1.5.2023
 2
 More money is needed to bolster the industry.
 She tried to bolster my confidence by telling me that I have talent.
 Bombastic
-1
+3
 overblown
 24.7.2022
-24.7.2022
+1.5.2023
 1
 The bombastic news coverage didn't help the situation.
 Brazen
-1
+2
 bold, shameless, obvious
 24.7.2022
-24.7.2022
+1.5.2023
 1
 He told me a brazen lie.
 Bucolic
 1
 rustic, coutrified
 24.7.2022
-24.7.2022
+1.5.2023
 1
 The painting shows a typically bucolic scene with peasants.
 Burgeon
 1
 florish, expand, grow quickly
 24.7.2022
-24.7.2022
+1.5.2023
 0
+Cacophony
+2
+loud and chaotic noise
+20.4.2023
+1.5.2023
+1
+As we entered the farmyard, we were met with a cacophony of animal sounds.
+Calumny
+1
+slander, a statement about someone that is not true and is intended to damage the reputation of that person
+20.4.2023
+1.5.2023
+1
+He was subjected to the most vicious calumny, but he never complained and never sued.
+Candid
+2
+honest, open
+20.4.2023
+1.5.2023
+2
+All we need at this moment is a candid discussion about the crisis.
+To be candid with you, I think you're making a dreadful mistake.
+Canon
+1
+a rule, a law, a good writing, a way of chanting
+20.4.2023
+1.5.2023
+0
+Capricious
+1
+mercurial, unpredictable, whimsical
+20.4.2023
+1.5.2023
+0
+Beguile
+1
+to persuade someone in order to deceive
+20.4.2023
+1.5.2023
+2
+He was completely beguiled by her beauty.
+The salesman beguiled him into buying a car he didn't want.
+Castigate
+1
+to scold, criticize severely
+20.4.2023
+1.5.2023
+1
+The health inspectors castigated the kitchen staff for not keeping the place clean.
+Caustic
+1
+corrosive, bitterly sarcastic
+1.5.2023
+1.5.2023
+1
+She is famous in the office for her caustic wit.
