@@ -1,9 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define VOCABULARY_FILE "vocab.txt"
+// #define VOCABULARY_FILE "vocab.txt"
 #define REVIEW_COUNT 	10
 int totalVocab = 0;
+string VOCABULARY_FILE;
 
 
 class Vocab
@@ -287,7 +288,8 @@ class Vocabulary{
 		}
 
 		int loadVocabsFromFile(){
-
+			cout<<"Enter the name of the vocabulary file: ";
+			cin>>VOCABULARY_FILE;
 			std::ifstream data_file(VOCABULARY_FILE);
 			string _word, _meaning, _example, line;
 			std::vector<string> _example_sentences;
@@ -424,6 +426,9 @@ class Vocabulary{
 				case 4:
 					if(isMoreDay(_date_today, _date_last_reviewed, 14))isAble = 1;
 					break;
+				case 5:
+					if(isMoreDay(_date_today, _date_last_reviewed, 29))isAble = 1;
+					break;
 			}
 			return isAble;
 		}
@@ -473,6 +478,10 @@ class Vocabulary{
 
 			switch(choice){
 				case 1:
+					if(vocab.getLevel()==5){
+						std::cout << "Congratulation. This vocab is still on level 5.\n";
+						break;
+					}
 					std::cout << "Congratulation. This vocab goes up by one level.\n";
 					vocab.setLevel(vocab.getLevel()+1);
 					std::cout << left << setw(20) << "New level: " << vocab.getLevel() << '\n';
