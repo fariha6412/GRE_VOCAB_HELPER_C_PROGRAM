@@ -1,0 +1,627 @@
+Abase
+5
+to humble or humiliate
+6.7.2022
+11.2.2024
+1
+The person abased himself before the king.
+Abate
+5
+to become less strong
+7.7.2022
+11.2.2024
+1
+The fighting in the area shows no sign of abating.
+Abdicate
+5
+to give up position or fail to take responsibility
+7.7.2022
+11.2.2024
+1
+The administration has abdicated its leadership on this critical issue.
+Aberrant
+4
+unusual or not socially acceptable
+7.7.2022
+11.2.2024
+1
+Ian's rages and aberrant behavior worsened.
+Abeyance
+5
+temporary suspension, inactivity
+7.7.2022
+11.2.2024
+1
+The project is being held in abeyance until agreement is reached on funding it.
+Abhor
+5
+regard with disgust, to hate
+7.7.2022
+11.2.2024
+1
+He abhored sexism in every form.
+Abjure
+1
+give up
+7.7.2022
+11.2.2024
+1
+He was arrested and forced to abjure his professorship.
+Abrasive
+5
+rough, rude
+7.7.2022
+11.2.2024
+2
+You'll need a strong abrasive for cleaning this sink.
+Pamela was unrepentant about her strong language and abrasive remarks.
+Abreast
+5
+side-by-side, well-informed, acquainted
+7.7.2022
+11.2.2024
+0
+Abridge
+1
+to lessen, shorten by omitting parts throughout while retaining the main idea
+7.7.2022
+11.2.2024
+0
+Abscond
+5
+to leave secretly
+9.7.2022
+11.2.2024
+1
+He absconded with stolen money.
+Abstain
+5
+to voluntarily refrain from doing something
+9.7.2022
+11.2.2024
+1
+I am trying to abstain from sweets for my new diet.
+Acumen
+5
+keen judgement and perception, the ability to make good judgement and take quick decisions
+9.7.2022
+11.2.2024
+1
+John's business acumen, along with his computer skills made him an asset for the company.
+Admonish
+2
+scold or to advise firmly
+9.7.2022
+11.2.2024
+0
+Adulterate
+5
+making something less pure by adding something
+9.7.2022
+11.2.2024
+1
+An example of adulterate is when an organic beauty company adds harsh or harmful chemicals to their products.
+Advocate
+5
+to recommend, support or advise
+9.7.2022
+11.2.2024
+0
+Aesthetic
+5
+concerned with beauty
+9.7.2022
+11.2.2024
+2
+My aesthetic standards are quite different from his.
+The new building has little aesthetic appeal.
+Affectation
+5
+artificial behavior, concealing the truth, pretentious behavior
+9.7.2022
+11.2.2024
+0
+Aggrandize
+5
+increase power or status
+9.7.2022
+11.2.2024
+0
+Alacrity
+5
+eagerness
+9.7.2022
+11.2.2024
+1
+They accepted the offer with alacrity.
+Alleviate
+5
+make(suffering) less severe
+9.7.2022
+11.2.2024
+1
+The medicine did nothing to alleviate her discomfort.
+Amalgamate
+5
+to combine or mix together
+9.7.2022
+11.2.2024
+0
+Ambiguous
+5
+unclear
+13.7.2022
+11.2.2024
+1
+His songs are intentionally ambiguous.
+Ambivalent
+5
+having mixed or contradictory feelings about someone or something
+13.7.2022
+11.2.2024
+2
+I felt very ambivalent about leaving home.
+I am ambivalent as to whether or not I want to take the medicine because of the drug's known side-effects.
+Ameliorate
+5
+to improve or migrate a situation, make something(unsatisfactory) better
+13.7.2022
+11.2.2024
+1
+The reform did much to ameliorate living standards.
+Amenable
+5
+easily pursuaded, willling to cooperate
+13.7.2022
+11.2.2024
+2
+This contract is amenable to change.
+Her husband never complains about anything and always amenable to her vacation suggestions.
+Anachronishm
+5
+old-fashioned
+13.7.2022
+11.2.2024
+0
+Analogous
+5
+comparable, similar
+13.7.2022
+11.2.2024
+1
+My teacher is analogous to my mother.
+Anoint
+5
+put holy water or oil, designate
+13.7.2022
+11.2.2024
+1
+He anointed his youngest son as his successor.
+Anomaly
+5
+exception
+13.7.2022
+11.2.2024
+0
+Antipathy
+3
+strong dislike or hatred
+13.7.2022
+11.2.2024
+0
+Antithetical
+5
+opposition
+13.7.2022
+11.2.2024
+1
+Evolution and Islam are antithetical beliefs as they view the concept of creation differently.
+Apathy
+5
+a feeling of having no interest or enthusiasm
+13.7.2022
+11.2.2024
+1
+A company's primary goal is to replace consumer's apathy with longing.
+Appease
+5
+calm an argument usually in the angry party's favor
+13.7.2022
+11.2.2024
+1
+People are so frightened of the politically correct police that they are willing to do things that are irrational just to appease them.
+Arbitrary
+5
+random
+13.7.2022
+11.2.2024
+0
+Arcane
+5
+known to selected people, obscure
+13.7.2022
+11.2.2024
+1
+Because it is no longer taught in school I believe that cursive writing will become arcane.
+Archaic
+5
+old-fashioned
+15.7.2022
+11.2.2024
+1
+Many people consider the concept of arranged marriages to be archaic.
+Arduous
+5
+difficult
+15.7.2022
+11.2.2024
+1
+Needless to say, mastering a foreign language is and arduous challenge.
+Articulate
+5
+well-spoken, expressing oneself clearly
+15.7.2022
+11.2.2024
+3
+The interviewer asked me to articulate my contribution to the company.
+While Ben is very articulate, he often rambles when he is drunk.
+When I get nervous, it is very difficult for me to articulate my thoughts.
+Artless
+5
+simple, natural, untrained
+15.7.2022
+11.2.2024
+1
+He is artlessly charming.
+Ascetic
+5
+living a life of self-discipline and self-denial usually for spiritual reasons
+15.7.2022
+11.2.2024
+1
+The ascetic man gave away his fortune and moved to a tiny one-bedroom apartment.
+Assuage
+5
+to provide relief
+15.7.2022
+11.2.2024
+3
+To help assuage my guilt, I told the truth.
+Warm soup does very little to assuage my soar throat.
+Not even a bribe to the carnival would assuage my farocious little sister.
+Audacious
+5
+recklessly bold, daring
+15.7.2022
+11.2.2024
+1
+The most successful people are those who are audacious and not afraid to take risk.
+Austere
+5
+unadorned, not decorated, very simple
+15.7.2022
+11.2.2024
+2
+Without any decoration, the christmas tree looked austere.
+A monk choooses to live and austere life because of his religious beliefs.
+Avarice
+5
+greed
+15.7.2022
+11.2.2024
+1
+With avarice, you could have everything in the world and it all still would not be enough.
+Aver
+3
+assert, express something in a convincing way with confidence
+15.7.2022
+11.2.2024
+1
+A political candidate's ads aver he is the best choice.
+Banal
+5
+boring, ordinary, lacks originality
+24.7.2022
+11.2.2024
+1
+At nearly evening meeting, he made the same banal speech.
+Belie
+5
+false appearance
+24.7.2022
+11.2.2024
+2
+Her calm face belied the terror she was feeling.
+Jason tried to belie the fact he was a lousy worker by showing up early at the office.
+Benign
+4
+harmless
+24.7.2022
+11.2.2024
+0
+Bolster
+5
+to support, improve, making stronger
+24.7.2022
+11.2.2024
+2
+More money is needed to bolster the industry.
+She tried to bolster my confidence by telling me that I have talent.
+Bombastic
+5
+overblown
+24.7.2022
+11.2.2024
+1
+The bombastic news coverage didn't help the situation.
+Brazen
+5
+bold, shameless, obvious
+24.7.2022
+11.2.2024
+1
+He told me a brazen lie.
+Bucolic
+3
+rustic, coutrified
+24.7.2022
+11.2.2024
+1
+The painting shows a typically bucolic scene with peasants.
+Burgeon
+1
+florish, expand, grow quickly
+24.7.2022
+11.2.2024
+0
+Cacophony
+5
+loud and chaotic noise
+20.4.2023
+11.2.2024
+1
+As we entered the farmyard, we were met with a cacophony of animal sounds.
+Calumny
+5
+slander, a statement about someone that is not true and is intended to damage the reputation of that person
+20.4.2023
+11.2.2024
+1
+He was subjected to the most vicious calumny, but he never complained and never sued.
+Candid
+5
+honest, open
+20.4.2023
+11.2.2024
+2
+All we need at this moment is a candid discussion about the crisis.
+To be candid with you, I think you're making a dreadful mistake.
+Canon
+1
+a rule, a law, a good writing, a way of chanting
+20.4.2023
+11.2.2024
+0
+Capricious
+1
+mercurial, unpredictable, whimsical
+20.4.2023
+11.2.2024
+0
+Beguile
+5
+to persuade someone in order to deceive
+20.4.2023
+11.2.2024
+2
+He was completely beguiled by her beauty.
+The salesman beguiled him into buying a car he didn't want.
+Castigate
+1
+to scold, criticize severely
+20.4.2023
+11.2.2024
+1
+The health inspectors castigated the kitchen staff for not keeping the place clean.
+Caustic
+1
+corrosive, bitterly sarcastic
+1.5.2023
+11.2.2024
+1
+She is famous in the office for her caustic wit.
+Conjectural
+2
+hypothetical, speculative
+16.11.2023
+11.2.2024
+2
+He uses the words "guess" and "suppose" frequently, showint that the whole argument is purely conjectural.
+An expert's opinion must not be based upon speculative or conjuctural data.
+Irreconcilable
+5
+incompatible, conflicting
+16.11.2023
+11.2.2024
+0
+Detrimental
+5
+harmful, damaging
+16.11.2023
+11.2.2024
+1
+These chemicals have a detrimental effect on the environment.
+Censure
+1
+strong criticism or disapproval
+16.11.2023
+11.2.2024
+1
+Ministers were censured for their lack of decisiveness during the crisis.
+Chauvinist
+2
+someone who has an unreasonable belief that their own country or race is the best or most important
+16.11.2023
+11.2.2024
+1
+The English tend to be chauvinist, they expect you to sing in their language.
+Chicanery
+5
+trickery, deception
+16.11.2023
+11.2.2024
+1
+It was a brilliant piece of political chicanery.
+Chronological
+5
+ordered by time
+16.11.2023
+11.2.2024
+0
+Coalesce
+5
+to come together
+16.11.2023
+11.2.2024
+1
+The theory is that galaxies coalesced from groupings of stars.
+Cogent
+3
+persuasive and well expressed
+16.11.2023
+11.2.2024
+1
+He make a cogent argument for improving early childhood education.
+Commensurate
+1
+in accordance with, proportional
+16.11.2023
+11.2.2024
+1
+The agency's workload has increased without any commensurate increase in staff.
+Compelling
+5
+captivating
+16.11.2023
+11.2.2024
+1
+I found the whole film very compelling.
+Comprehensive
+5
+complete and through
+16.11.2023
+11.2.2024
+2
+He has written a fully comprehensive guide to Rome.
+Is this list comprehensive or are there some names missing?
+Condone
+5
+to approve or allow
+16.11.2023
+11.2.2024
+1
+I don't condone such rude behavior.
+Selubrious
+1
+a clean, pleasant and healthy place to live on
+21.11.2023
+11.2.2024
+1
+They live in working-class streets and not in the salubrious parts of the community.
+Sanction
+5
+give official permission, impose a penalty for a particular action
+21.11.2023
+11.2.2024
+2
+They tried to get official sanction for the plans
+Without realistic sanctions, some teachers have difficulty keeping order in the classroom.
+Satiate
+5
+to completely satisfy yourself or a need, especially with food or pleasure, so that you could not have more
+21.11.2023
+11.2.2024
+1
+He drank greedily until his thirst was satiated
+Secular
+3
+not having any connection with religion
+21.11.2023
+11.2.2024
+1
+We live in an increasingly secular society, in which religion has less and less influence on our daily lives.
+Stringent
+1
+having a very severe effect, being extremely limited
+21.11.2023
+11.2.2024
+1
+Stringent safety regulations were introduced after the accident.
+Sediment
+5
+material that settles at the bottom of a body of water
+21.11.2023
+11.2.2024
+1
+There was a brown sediment in the bottom of the bottle.
+Sedulous
+1
+dedicated and careful
+21.11.2023
+11.2.2024
+0
+Simultaneous
+5
+occurring at the same moment
+21.11.2023
+11.2.2024
+0
+Solicitous
+1
+considerate, attentive
+21.11.2023
+11.2.2024
+2
+Carla becomes angry at her overly solicitous mother.
+He made a solicitous enquiry after her health.
+Soporific
+1
+makes sleepy
+21.11.2023
+11.2.2024
+0
+Goad
+3
+to make a person or an animal react or do something by continuously annoying or upsetting them
+21.11.2023
+11.2.2024
+2
+She seemed determined to goad him into a fight.
+He refused to be goaded by their insults.
+Spur
+5
+to encourage an activity to make it happen faster
+21.11.2023
+11.2.2024
+1
+He spurred his horse on and shouted "Faster!Faster!".
+Sparse
+5
+scattered, scarce, austere and unadorned
+21.11.2023
+11.2.2024
+0
+Specious
+1
+Spurious, appearing true but actually false
+21.11.2023
+11.2.2024
+1
+It may help learners speak several phrases so as to give them a specious sense of fulfillment and achievement.
+Sporadic
+1
+occasional, scattered, not regular or continuous
+21.11.2023
+11.2.2024
+1
+The storm caused sporadic flooding throughout the region.
